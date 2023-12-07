@@ -11,6 +11,10 @@ module.exports = {
       prussian_blue: "#093149",
       alternative_blue: "#0B3B57",
     },
+    boxShadow: {
+      "3xl": "0px 3px 3px 0px rgba(0, 0, 0, 0.3)",
+    },
   },
   plugins: [],
 };
+
