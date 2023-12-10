@@ -77,3 +77,20 @@ header {
 .place_h:focus::placeholder {
   color: transparent;
 }
+
+/* menü anzeigen */
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+
+/* blendet sandwich bar oder checkbox ein, wenn ein- oder abgewählt wird */
+#menu-checkbox:checked + label .sandwich-bar {
+  display: none;
+}
+
+#menu-checkbox:checked + label .xmark {
+  display: block;
+}
+
+/* MAIN */
