@@ -11,28 +11,28 @@
   <body class="bg-platinum">
     <!-- HEADER -->
     <header
-      class="w-screen h-20 shadow-3xl fixed top-0 flex justify-center items-center bg-platinum"
+      class="w-screen h-auto shadow-3xl fixed top-0 flex justify-center items-center bg-platinum px-10"
     >
       <!-- buttons/links big screens -->
       <div
-        class="hidden md:flex hd_btn_left justify-start items-center w-4/12 h-full ml-10"
+        class="hidden lg:flex hd_btn_left justify-start items-center w-4/12 h-full"
       >
         <a class="px-5 py-1.5 hover:shadow-3xl" href="">Stones</a>
-        <a class="px-5 py-1.5 hover:shadow-3xl" href="">Our Story</a>
+        <a class="px-5 py-1.5 hover:shadow-3xl" href="">About</a>
         <a class="px-5 py-1.5 hover:shadow-3xl" href="">Contact</a>
       </div>
 
       <!-- sandwich bar -->
-      <div class="md:hidden pr-10 group">
+      <div class="lg:hidden pr-10 group w-4/12 flex justify-start">
         <input
           type="checkbox"
           id="menu-checkbox"
-          class="md:hidden pr-10 group hidden"
+          class="lg:hidden pr-10 hidden"
         />
         <!-- hidden versteckt checkbox -->
         <label for="menu-checkbox">
           <img
-            class="h-6 w-auto h-auto p-2 cursor-pointer hover:h-9 sandwich-bar"
+            class="h-6 w-8 h-auto p-2 cursor-pointer hover:h-9 sandwich-bar"
             src="../fonts/bars-solid.svg"
             alt="sandwich bar"
           />
@@ -44,16 +44,16 @@
         </label>
         <!-- buttons/links small screens -->
         <nav
-          class="absolute top-20 left-0 w-full hidden h-screen w-8/12 bg-platinum shadow-3xl border transform group-focus:left-0 group-focus:visible transition-all duration-300"
+          class="absolute top-16 left-0 w-full hidden h-screen w-8/12 bg-platinum"
         >
           <ul class="flex flex-col items-center w-full cursor-pointer pt-10">
             <li>
               <a class="py-4 px-6 w-full hover:shadow-3xl" href="">Stones</a>
             </li>
-            <li>
-              <a class="py-4 px-6 w-full hover:shadow-3xl" href="">Our Story</a>
+            <li class="mt-7">
+              <a class="py-4 px-6 w-full hover:shadow-3xl" href="">About</a>
             </li>
-            <li>
+            <li class="mt-7">
               <a class="py-4 px-6 w-full hover:shadow-3xl" href="">Contact</a>
             </li>
           </ul>
@@ -62,17 +62,19 @@
 
       <!-- logo -->
       <div class="logo w-4/12 h-full flex justify-center items-center">
-        <p class="logo">LuminousR</p>
+        <p class="logo border-3">LR</p>
       </div>
       <!-- searchbar/icons -->
-      <div class="hd_right w-4/12 h-full mr-10">
-        <ul class="w-full h-full flex justify-end items-center gap-10">
+      <div class="hd_right w-4/12 h-full">
+        <ul
+          class="w-full h-full flex justify-between lg:justify-end items-center lg:gap-10"
+        >
           <li>
             <label for="search">
               <i class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"></i
             ></label>
             <input
-              class="place_h px-2"
+              class="place_h px-2 hidden lg:block"
               type="text"
               id="search"
               placeholder="  What are you searching for?"
@@ -90,7 +92,13 @@
 
     <!-- MAIN -->
     <main>
-      <img class="w-1/2" src="../images/1000006045.jpg" alt="" />
+      <div class="h-screen w-full">
+        <img
+          class="h-2/3 w-full object-cover"
+          src="../images/1000006045.jpg"
+          alt=""
+        />
+      </div>
     </main>
   </body>
 </html>
