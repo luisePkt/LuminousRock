@@ -52,6 +52,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #093149;
+}
+
+h2{
+  font-family: "MedievalSharp";
+
 }
 
 /* HEADER */
@@ -83,7 +89,6 @@ header {
   display: block;
 }
 
-
 /* blendet sandwich bar oder checkbox ein, wenn ein- oder abgewählt wird */
 #menu-checkbox:checked + label .sandwich-bar {
   display: none;
@@ -94,7 +99,7 @@ header {
 }
 
 /*ab md blendet search-bar ein */
-#magn_check:checked + label .search{
+#magn_check:checked + label .search {
   display: block;
 }
 

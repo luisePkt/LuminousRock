@@ -11,15 +11,27 @@
   <body class="bg-platinum">
     <!-- HEADER -->
     <header
-      class="w-screen h-auto shadow-3xl fixed top-0 flex justify-center items-center bg-platinum px-10"
+      class="w-screen h-auto fixed top-0 flex justify-center items-center bg-platinum px-10"
     >
       <!-- buttons/links big screens -->
       <div
         class="hidden lg:flex hd_btn_left justify-start items-center w-4/12 h-full"
       >
-        <a class="px-5 py-1.5 hover:shadow-3xl" href="">Stones</a>
-        <a class="px-5 py-1.5 hover:shadow-3xl" href="">About</a>
-        <a class="px-5 py-1.5 hover:shadow-3xl" href="">Contact</a>
+        <a
+          class="px-5 py-1.5 text-xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+          href=""
+          >Stones</a
+        >
+        <a
+          class="px-5 py-1.5 text-xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+          href=""
+          >About</a
+        >
+        <a
+          class="px-5 py-1.5 text-xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+          href=""
+          >Contact</a
+        >
       </div>
 
       <!-- sandwich bar -->
@@ -44,19 +56,31 @@
         </label>
         <!-- buttons/links small screens -->
         <nav
-          class="absolute top-16 left-0 md:w-1/3 md:h-24 w-full hidden h-screen bg-platinum"
+          class="absolute top-16 left-0 md:w-1/3 w-full hidden h-screen bg-platinum"
         >
           <ul
-            class="flex flex-col items-center w-full cursor-pointer pt-10 bg-platinum"
+            class="flex flex-col items-center w-full h-full cursor-pointer pt-10 bg-platinum"
           >
             <li>
-              <a class="py-4 px-6 w-full hover:shadow-3xl" href="">Stones</a>
+              <a
+                class="py-4 px-6 w-full text-2xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+                href=""
+                >Stones</a
+              >
             </li>
             <li class="mt-7">
-              <a class="py-4 px-6 w-full hover:shadow-3xl" href="">About</a>
+              <a
+                class="py-4 px-6 w-full text-2xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+                href=""
+                >About</a
+              >
             </li>
             <li class="mt-7">
-              <a class="py-4 px-6 w-full hover:shadow-3xl" href="">Contact</a>
+              <a
+                class="py-4 px-6 w-full text-2xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+                href=""
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
@@ -74,45 +98,81 @@
           <li class="flex flex-row">
             <input type="checkbox" id="magn_check" class="hidden" />
             <!-- blendet checkbox magnifying-glass aus  -->
-            <label for="magn_check" class="lg:hidden">
-              <i class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"></i>
+            <label for="magn_check_2" class="lg:hidden">
+              <i
+                class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"
+                style="color: #093149"
+              ></i>
 
               <input
                 class="place_h px-2 hidden search absolute left-1/2 top-14"
                 type="text"
-                id="magn_check"
+                id="magn_check_2"
                 placeholder="  What are you searching for?"
             /></label>
 
-            <label for="search" class="hidden lg:block">
-              <i class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"></i>
+            <label for="search_2" class="hidden lg:block">
+              <i
+                class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"
+                style="color: #093149"
+              ></i>
             </label>
             <input
               class="place_h px-2 hidden lg:block"
               type="text"
-              id="search"
+              id="search_2"
               placeholder="  What are you searching for?"
             />
           </li>
           <li>
-            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"
+              ><i class="fa-regular fa-user" style="color: #093149"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#"
+              ><i class="fa-solid fa-bag-shopping" style="color: #093149"></i
+            ></a>
           </li>
         </ul>
       </div>
     </header>
 
     <!-- MAIN -->
-    <main>
-      <div class="h-screen w-full">
-        <img
-          class="h-2/3 w-full object-cover"
-          src="../images/1000006045.jpg"
-          alt=""
-        />
+    <main class="h-screen w-full">
+      <!-- main picture -->
+
+      <img
+        class="h-2/3 w-full object-cover"
+        src="../images/1000006045.jpg"
+        alt=""
+      />
+      <div
+        class="absolute z-50 w-full flex justify-center text-4xl top-1/2 lg:top-1/3 lg:text-8xl"
+      >
+        <h2 class="text-white text-center lg:drop-shadow-fancyshadow">
+          Lumnious Rock
+        </h2>
       </div>
+
+      <!-- decoration -->
+      <div
+        class="my-10 md:mt-20 md:mb-10 w-3/4 h-0.5 bg-prussian_blue flex m-auto rounded-full"
+      ></div>
+      <!-- headline -->
+      <div class="w-3/4 flex flex-col m-auto">
+        <h2 class="text-center text-2xl pb-2 md:pb-3 lg:pb-5 lg:text-5xl md:text-3xl">
+          Welcome to our exclusive stone emporium
+        </h2>
+        <h3 class="text-center text-lg lg:text-3xl md:text-xl">
+          Discover the finest selection of exquisite stones curated just for
+          you.
+        </h3>
+      </div>
+      <!-- decoration -->
+      <div
+        class="my-10 w-3/4 h-0.5 bg-prussian_blue flex m-auto rounded-full"
+      ></div>
     </main>
   </body>
 </html>

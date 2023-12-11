@@ -12,21 +12,13 @@ module.exports = {
         alternative_blue: "#0B3B57",
       },
     },
+    dropShadow: {
+      fancyshadow: "5px 5px 2px rgba(9, 49, 73, 0.25)",
+    },
     boxShadow: {
       "3xl": "0px 3px 3px 0px rgba(0, 0, 0, 0.3)",
     },
   },
-
-  // für sandwich bar
-  variants: {
-    extend: {
-      display: ["group-focus"],
-      opacity: ["group-focus"],
-      inset: ["group-focus"],
-    },
-  },
-
-  // ------------------
 
   plugins: [],
 };
