@@ -18,7 +18,7 @@ module.exports = {
     boxShadow: {
       "3xl": "0px 3px 3px 0px rgba(0, 0, 0, 0.3)",
     },
+    clipPath: { poly1: "polygon(48.3% 0%, 100% 100%, 21.8% 71%)" },
   },
-
-  plugins: [],
+  plugins: [require("tailwind-clip-path")],
 };

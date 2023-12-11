@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stones</title>
+    <link rel="icon" type="image/x-icon" href="../fonts/gem-solid.svg" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css" />
+  </head>
+  <body class="bg-platinum">
+    <!-- HEADER -->
+    <header
+      class="w-screen h-auto fixed top-0 flex justify-center items-center bg-platinum px-10 z-50"
+    >
+      <!-- buttons/links big screens -->
+      <div
+        class="hidden lg:flex hd_btn_left justify-start items-center w-4/12 h-full"
+      >
+        <a
+          class="px-5 py-1.5 text-xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+          href="./index.html"
+          >Home</a
+        >
+        <a
+          class="px-5 py-1.5 text-xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+          href=""
+          >About</a
+        >
+        <a
+          class="px-5 py-1.5 text-xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+          href=""
+          >Contact</a
+        >
+      </div>
+
+      <!-- sandwich bar -->
+      <div class="lg:hidden pr-10 group w-4/12 flex justify-start">
+        <input
+          type="checkbox"
+          id="menu-checkbox"
+          class="lg:hidden pr-10 hidden"
+        />
+        <!-- hidden versteckt checkbox -->
+        <label for="menu-checkbox">
+          <img
+            class="h-6 w-8 h-auto p-2 cursor-pointer hover:h-9 sandwich-bar"
+            src="../fonts/bars-solid.svg"
+            alt="sandwich bar"
+          />
+          <img
+            class="h-6 w-auto h-auto p-2 cursor-pointer hover:h-9 xmark hidden"
+            src="../fonts/xmark-solid.svg"
+            alt="x mark"
+          />
+        </label>
+        <!-- buttons/links small screens -->
+        <nav
+          class="absolute top-16 left-0 md:w-1/3 w-full hidden h-screen bg-platinum"
+        >
+          <ul
+            class="flex flex-col items-center w-full h-full cursor-pointer pt-10 bg-platinum"
+          >
+            <li>
+              <a
+                class="py-4 px-6 w-full text-2xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="mt-7">
+              <a
+                class="py-4 px-6 w-full text-2xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+                href=""
+                >About</a
+              >
+            </li>
+            <li class="mt-7">
+              <a
+                class="py-4 px-6 w-full text-2xl hover:text-paynes_gray hover:underline hover:decoration-paynes_gray hover:decoration-4"
+                href=""
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- logo -->
+      <div class="logo w-4/12 h-full flex justify-center items-center">
+        <p class="logo border-3">LR</p>
+      </div>
+      <!-- searchbar/icons -->
+      <div class="hd_right w-4/12 h-full">
+        <ul
+          class="w-full h-full flex justify-between lg:justify-end items-center lg:gap-10"
+        >
+          <li class="flex flex-row">
+            <input type="checkbox" id="magn_check" class="hidden" />
+
+            <!-- blendet checkbox magnifying-glass aus  -->
+            <label for="magn_check" class="lg:hidden">
+              <i
+                class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"
+                style="color: #093149"
+              ></i>
+
+              <input
+                class="place_h px-2 hidden search absolute left-1/2 top-14"
+                type="text"
+                id="magn_check_2"
+                placeholder="  What are you searching for?"
+            /></label>
+
+            <label for="search_2" class="hidden lg:block">
+              <i
+                class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"
+                style="color: #093149"
+              ></i>
+            </label>
+            <input
+              class="place_h px-2 hidden lg:block"
+              type="text"
+              id="search_2"
+              placeholder="  What are you searching for?"
+            />
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-regular fa-user" style="color: #093149"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-bag-shopping" style="color: #093149"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="h-full mt-20">
+      <!-- back to TOP -->
+      <div
+        class="relative flex items-center flex-col text-xl hover:text-2xl group"
+      >
+        <!-- text -->
+        <div class="text-center z-40">
+          <p>back to</p>
+          <a href="#" class="medieval">TOP</a>
+        </div>
+        <!-- hover clip-path background -->
+        <div
+          class="absolute w-3/4 h-32 group-hover:clip-path-poly1 group-hover:bg-melon"
+        ></div>
+      </div>
+
+      <!-- imprint -->
+      <section
+        class="w-3/4 h-20 m-auto border-2 p-10 my-10 border-prussian_blue flex justify-between items-center text-lg"
+      >
+        <a href="">Imprint</a>
+        <section>
+          <a href="#"
+            ><i class="fa-brands fa-instagram pr-5" style="color: #093149"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-facebook" style="color: #093149"></i
+          ></a>
+        </section>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="absolute bottom-0 w-full h-20 px-10 bg-platinum text-lg flex justify-start items-center"
+    >
+      <p>&copy; Luise</p>
+    </footer>
+  </body>
+</html>
