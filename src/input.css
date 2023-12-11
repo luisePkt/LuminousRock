@@ -93,4 +93,9 @@ header {
   display: block;
 }
 
+/*ab md blendet search-bar ein */
+#magn_check:checked + label .search{
+  display: block;
+}
+
 /* MAIN */
