@@ -11,6 +11,10 @@ module.exports = {
         prussian_blue: "#093149",
         alternative_blue: "#0B3B57",
       },
+      fontFamily: {
+        MedievalSharp: ["MedievalSharp", "serif"],
+        Inter: ["Inter", "sans-serif"],
+      },
     },
     dropShadow: {
       fancyshadow: "5px 5px 2px rgba(9, 49, 73, 0.25)",
