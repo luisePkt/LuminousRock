@@ -101,7 +101,7 @@
         <img
           class="h-9 my-4 w-auto"
           src="./images/jpg/Stone_prussian-blue.png"
-          alt=""
+          alt="logo stone"
         />
       </div>
       <!-- searchbar/icons -->
@@ -156,20 +156,21 @@
     <!-- MAIN -->
     <main class="h-full mt-20">
       <!-- main picture -->
-      <div class="h-screen">
+      <div class="h-80">
         <div
-          class="h-1/2 w-full bg-gradient-to-b from-platinum to-paynes_gray"
+          class="h-full w-full bg-gradient-to-b from-platinum to-paynes_gray"
         ></div>
         <div
-          class="absolute w-full flex justify-center text-4xl top-1/3 md:text-6xl lg:text-8xl"
+          class="absolute w-full flex justify-center text-4xl top-1/4 md:text-6xl lg:text-8xl"
         >
           <h2 class="text-white text-center lg:drop-shadow-fancyshadow">
             Contact
           </h2>
         </div>
-
+      </div>
+      <div class="h-screen">
         <!-- headline -->
-        <div class="w-3/4 flex flex-col m-auto py-10 my-10">
+        <div class="w-3/4 flex flex-col m-auto py-10 mt-10 mb-5">
           <h2 class="text-center text-lg lg:text-3xl md:text-xl">
             get in touch with us
           </h2>
@@ -177,13 +178,79 @@
 
         <!-- contact form -->
 
-        <div class="flex h-3/4 items-center justify-start">
-          <div class=""></div>
+        <div class="mx-10 mb-10 flex items-center justify-center">
+          <div class="w-3/4">
+            <p class="mb-10 text-prussian_blue">
+              You can contact us here or send an E-Mail at luminous@rock.com
+            </p>
+            <form
+              action="https://formspree.io/f/myyqrqeo"
+              target="_blank"
+              method="POST"
+            >
+              <div class="grid-cols-2 md:grid gap-6">
+                <div
+                  class="relative z-0 bg-gradient-to-b from-platinum to-white my-0"
+                >
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder=""
+                    id="name"
+                    class="mt-10 md:mt-0 peer block w-full appearance-none border-0 border-b border-prussian_blue bg-transparent py-2.5 px-0 text-sm text-prussian_blue focus:border-sky_blue focus:outline-none focus:right-0"
+                  />
+                  <label
+                    for="name"
+                    class="absolute top-3 -z-10 origin-[0] -translate-y-10 scale-75 transform text-sm md:text-lg text-prussian_blue duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-10 peer-focus:scale-75 peer-focus:text-sky_blue peer-focus:dark:text-prussian_blue"
+                    >Tell us your name</label
+                  >
+                </div>
+                <div
+                  class="relative z-0 bg-gradient-to-b from-platinum to-white my-0"
+                >
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder=""
+                    id="email"
+                    class="mt-10 md:mt-0 peer block w-full appearance-none border-0 border-b border-prussian_blue bg-transparent py-2.5 px-0 text-sm text-prussian_blue focus:border-sky_blue focus:outline-none focus:right-0"
+                  />
+                  <label
+                    for="email"
+                    class="absolute top-3 -z-10 origin-[0] -translate-y-10 scale-75 transform text-sm md:text-lg text-prussian_blue duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-10 peer-focus:scale-75 peer-focus:text-sky_blue peer-focus:dark:text-prussian_blue"
+                    >Tell us your E-Mail so that we can reply</label
+                  >
+                </div>
+                <div
+                  class="relative z-0 col-span-2 mt-3 bg-gradient-to-b from-platinum to-white my-0"
+                >
+                  <textarea
+                    name="message"
+                    rows="10"
+                    id="message"
+                    placeholder=""
+                    class="mt-10 md:mt-0 peer block w-full appearance-none border-0 border-b border-prussian_blue bg-transparent py-2.5 px-0 text-lg text-prussian_blue focus:border-sky_blue focus:outline-none focus:right-0"
+                  ></textarea>
+                  <label
+                    for="message"
+                    class="px-3 absolute top-3 -z-10 origin-[0] -translate-y-10 scale-75 transform text-sm md:text-lg text-prussian_blue duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-10 peer-focus:scale-75 peer-focus:text-sky_blue peer-focus:dark:text-prussian_blue"
+                    >Have a question, comment, or inquiry? Feel free to drop us
+                    a message using this textarea.</label
+                  >
+                </div>
+              </div>
+              <button
+                class="flex m-auto uppercase mt-10 px-10 py-2 rounded-lg text-3xl bg-melon text-prussian_blue medieval hover:text-melon hover:bg-prussian_blue"
+              >
+                submit
+              </button>
+            </form>
+          </div>
         </div>
 
         <!-- gradient  -->
         <div
-          class="h-1/6 w-full bg-gradient-to-b from-paynes_gray to-platinum"
+          class="h-1/2 w-full bg-gradient-to-b from-paynes_gray to-platinum"
         ></div>
       </div>
 
