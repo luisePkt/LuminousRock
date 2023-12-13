@@ -1241,7 +1241,7 @@ video {
 
   font-weight: 400;
 
-  src: url("../docs/fonts/inter-v13-latin/inter-v13-latin-regular.woff2")
+  src: url(".fonts/inter-v13-latin/inter-v13-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
       url(".fonts/inter-v13-latin/inter-v13-latin-regular.ttf")
