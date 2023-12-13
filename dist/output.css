@@ -866,11 +866,6 @@ video {
   background-color: rgb(9 49 73 / var(--tw-bg-opacity));
 }
 
-.bg-sky_blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(151 193 216 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1038,6 +1033,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -1056,11 +1056,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1089,10 +1084,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .transition {
@@ -1288,12 +1279,6 @@ header {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:scale-150:hover {
-  --tw-scale-x: 1.5;
-  --tw-scale-y: 1.5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:scale-125:hover {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
@@ -1307,16 +1292,6 @@ header {
 .hover\:text-2xl:hover {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.hover\:text-4xl:hover {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.hover\:text-xl:hover {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .hover\:text-paynes_gray:hover {
@@ -1372,10 +1347,6 @@ header {
   display: block;
 }
 
-.group:hover .group-hover\:cursor-pointer {
-  cursor: pointer;
-}
-
 .group:hover .group-hover\:clip-path-poly1 {
   -webkit-clip-path: polygon(48.3% 0%, 100% 100%, 21.8% 71%);
           clip-path: polygon(48.3% 0%, 100% 100%, 21.8% 71%);
@@ -1401,15 +1372,6 @@ header {
 }
 
 @media (min-width: 768px) {
-  .md\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .md\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
   .md\:mr-5 {
     margin-right: 1.25rem;
   }
@@ -1442,20 +1404,12 @@ header {
     justify-content: flex-start;
   }
 
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
   .md\:gap-3 {
     gap: 0.75rem;
   }
 
   .md\:pb-3 {
     padding-bottom: 0.75rem;
-  }
-
-  .md\:text-left {
-    text-align: left;
   }
 
   .md\:text-3xl {
@@ -1468,18 +1422,14 @@ header {
     line-height: 1;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
   }
 
-  .md\:no-underline {
-    text-decoration-line: none;
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:hover\:text-4xl:hover {
