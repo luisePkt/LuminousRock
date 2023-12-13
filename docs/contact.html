@@ -110,36 +110,46 @@
           class="w-full h-full flex justify-between lg:justify-end items-center lg:gap-10"
         >
           <li class="flex flex-row">
-            <input type="checkbox" id="magn_check" class="hidden" />
+            <form
+              action="https://google.com/search"
+              target="_blank"
+              rel="noreferrer"
+              method="get"
+              class="search-bar flex"
+            >
+              <input type="checkbox" id="magn_check" class="hidden" />
 
-            <!-- blendet checkbox magnifying-glass aus  -->
-            <label for="magn_check" class="lg:hidden">
-              <i
-                class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"
-                style="color: #093149"
-              ></i>
+              <!-- blendet checkbox magnifying-glass aus  -->
+              <label for="magn_check" class="lg:hidden">
+                <i
+                  class="fa-solid fa-magnifying-glass pr-3 cursor-pointer"
+                  style="color: #093149"
+                ></i>
 
+                <input
+                  class="place_h px-2 hidden search absolute left-1/2 top-14"
+                  type="text"
+                  id="magn_check_2"
+                  placeholder="  What are you searching for?"
+                  aria-label="search-input"
+              /></label>
+
+              <label for="search_2" class="hidden lg:block">
+                <button type="submit">
+                  <i
+                    class="fa-solid fa-magnifying-glass pr-3 hover:scale-125 cursor-pointer"
+                    style="color: #093149"
+                  ></i>
+                </button>
+              </label>
               <input
-                class="place_h px-2 hidden search absolute left-1/2 top-14"
+                class="place_h px-2 hidden lg:block"
                 type="text"
-                id="magn_check_2"
+                id="search_2"
                 placeholder="  What are you searching for?"
-                aria-label="search-input"
-            /></label>
-
-            <label for="search_2" class="hidden lg:block">
-              <i
-                class="fa-solid fa-magnifying-glass pr-3 cursor-pointer hover:scale-125"
-                style="color: #093149"
-              ></i>
-            </label>
-            <input
-              class="place_h px-2 hidden lg:block"
-              type="text"
-              id="search_2"
-              placeholder="  What are you searching for?"
-              aria-label="search-input"
-            />
+                aria-label="search input"
+              />
+            </form>
           </li>
           <li>
             <a href="#"
@@ -160,7 +170,6 @@
         </ul>
       </div>
     </header>
-
     <!-- MAIN -->
     <main class="h-full mt-20">
       <!-- main picture -->
