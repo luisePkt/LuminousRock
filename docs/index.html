@@ -123,6 +123,7 @@
                 type="text"
                 id="magn_check_2"
                 placeholder="  What are you searching for?"
+                aria-label="search-input"
             /></label>
 
             <label for="search_2" class="hidden lg:block">
@@ -136,16 +137,23 @@
               type="text"
               id="search_2"
               placeholder="  What are you searching for?"
+              aria-label="search input"
             />
           </li>
           <li>
             <a href="#"
-              ><i class="fa-regular fa-user hover:scale-125" style="color: #093149"></i
+              ><i
+                class="fa-regular fa-user hover:scale-125"
+                style="color: #093149"
+              ></i
             ></a>
           </li>
           <li>
             <a href="#"
-              ><i class="fa-solid fa-bag-shopping hover:scale-125" style="color: #093149"></i
+              ><i
+                class="fa-solid fa-bag-shopping hover:scale-125"
+                style="color: #093149"
+              ></i
             ></a>
           </li>
         </ul>
@@ -317,14 +325,16 @@
       <div
         class="relative flex items-center flex-col text-xl hover:text-2xl group"
       >
-        <!-- text -->
-        <div class="text-center z-40">
-          <p>back to</p>
-          <a href="#" class="medieval">TOP</a>
-        </div>
+        <a href="#" class="medieval">
+          <!-- text -->
+          <div class="text-center z-40">
+            <p>back to</p>
+            TOP
+          </div></a
+        >
         <!-- hover clip-path background -->
         <div
-          class="absolute w-52 h-14 bg-melon hidden group-hover:clip-path-poly1 group-hover:block"
+          class="absolute w-52 h-14 bg-melon hidden group-hover:clip-path-poly1 group-hover:block -z-10"
         ></div>
       </div>
 
@@ -332,13 +342,19 @@
       <section
         class="mx-10 h-20 m-auto border-2 p-10 my-10 border-prussian_blue flex justify-between items-center text-lg"
       >
-        <a href="">Imprint</a>
+        <a href="" class="hover:scale-125">Imprint</a>
         <section>
           <a href="#"
-            ><i class="fa-brands fa-instagram pr-5" style="color: #093149"></i
+            ><i
+              class="fa-brands fa-instagram pr-5 hover:scale-125"
+              style="color: #093149"
+            ></i
           ></a>
           <a href="#"
-            ><i class="fa-brands fa-facebook" style="color: #093149"></i
+            ><i
+              class="fa-brands fa-facebook hover:scale-125"
+              style="color: #093149"
+            ></i
           ></a>
         </section>
       </section>
@@ -348,7 +364,7 @@
     <footer
       class="bottom-0 w-full h-20 px-10 bg-platinum text-lg flex justify-start items-center"
     >
-      <p>&copy; Luise</p>
+      <p class="text-xs">&copy; Luise</p>
     </footer>
   </body>
 </html>
