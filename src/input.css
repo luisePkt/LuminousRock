@@ -2,19 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #093149;
+  font-family: "Inter", sans-serif;
 }
 
 h2,
 .medieval {
-  font-family: "MedievalSharp";
-  font-family: 'Zeyada', cursive;
-  font-family: 'MedievalSharp', display;
+  font-family: "MedievalSharp", display;
 }
 
 /* HEADER */
