@@ -8,10 +8,10 @@
   font-family: "MedievalSharp";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.woff2")
+  src: url("../../LuminousRock/docs/fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("./fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.ttf")
+      url("../../LuminousRock/docs/fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.ttf")
       format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
@@ -21,10 +21,10 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/inter-v13-latin/inter-v13-latin-regular.woff2")
+  src: url("../../LuminousRock/docs/fonts/inter-v13-latin/inter-v13-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("./fonts/inter-v13-latin/inter-v13-latin-regular.ttf")
+      url("../../LuminousRock/docs/fonts/inter-v13-latin/inter-v13-latin-regular.ttf")
       format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* inter-600 - latin */
@@ -33,9 +33,11 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  src: url("./fonts/inter-v13-latin/inter-v13-latin-600.woff2") format("woff2"),
+  src: url("../../LuminousRock/docs/fonts/inter-v13-latin/inter-v13-latin-600.woff2")
+      format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("./fonts/inter-v13-latin/inter-v13-latin-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("../../LuminousRock/docs/fonts/inter-v13-latin/inter-v13-latin-600.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* inter-800 - latin */
 @font-face {
@@ -43,9 +45,11 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  src: url("./fonts/inter-v13-latin/inter-v13-latin-800.woff2") format("woff2"),
+  src: url("../../LuminousRock/docs/fonts/inter-v13-latin/inter-v13-latin-800.woff2")
+      format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("./inter-v13-latin/inter-v13-latin-800.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url("../../LuminousRock/docs/fonts/inter-v13-latin/inter-v13-latin-800.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 :root {
