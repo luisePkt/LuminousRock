@@ -902,22 +902,14 @@ video {
   border-width: 2px;
 }
 
-.border-x-2 {
-  border-left-width: 2px;
-  border-right-width: 2px;
-}
-
 .border-x-0 {
   border-left-width: 0px;
   border-right-width: 0px;
 }
 
-.border-l-0 {
-  border-left-width: 0px;
-}
-
-.border-t {
-  border-top-width: 1px;
+.border-x-2 {
+  border-left-width: 2px;
+  border-right-width: 2px;
 }
 
 .border-none {
@@ -933,28 +925,6 @@ video {
   --tw-border-opacity: 1;
   border-top-color: rgb(9 49 73 / var(--tw-border-opacity));
   border-bottom-color: rgb(9 49 73 / var(--tw-border-opacity));
-}
-
-.border-x-platinum {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(236 234 233 / var(--tw-border-opacity));
-  border-right-color: rgb(236 234 233 / var(--tw-border-opacity));
-}
-
-.border-x-purple-50 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(250 245 255 / var(--tw-border-opacity));
-  border-right-color: rgb(250 245 255 / var(--tw-border-opacity));
-}
-
-.border-t-prussian_blue {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(9 49 73 / var(--tw-border-opacity));
-}
-
-.border-r-prussian_blue {
-  --tw-border-opacity: 1;
-  border-right-color: rgb(9 49 73 / var(--tw-border-opacity));
 }
 
 .bg-melon {
@@ -1249,10 +1219,10 @@ video {
 
   font-weight: 400;
 
-  src: url("../fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.woff2")
+  src: url("../docs/fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.ttf")
+      url("../docs/fonts/medievalsharp-v26-latin/medievalsharp-v26-latin-regular.ttf")
       format("truetype");
 
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
@@ -1271,10 +1241,10 @@ video {
 
   font-weight: 400;
 
-  src: url("../fonts/inter-v13-latin/inter-v13-latin-regular.woff2")
+  src: url("../docs/fonts/inter-v13-latin/inter-v13-latin-regular.woff2")
       format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/inter-v13-latin/inter-v13-latin-regular.ttf")
+      url("../docs/fonts/inter-v13-latin/inter-v13-latin-regular.ttf")
       format("truetype");
 
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
@@ -1293,9 +1263,11 @@ video {
 
   font-weight: 600;
 
-  src: url("../fonts/inter-v13-latin/inter-v13-latin-600.woff2") format("woff2"),
+  src: url("../docs/fonts/inter-v13-latin/inter-v13-latin-600.woff2")
+      format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url("../fonts/inter-v13-latin/inter-v13-latin-600.ttf") format("truetype");
+      url("../docs/fonts/inter-v13-latin/inter-v13-latin-600.ttf")
+      format("truetype");
 
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
@@ -1313,7 +1285,8 @@ video {
 
   font-weight: 800;
 
-  src: url("../fonts/inter-v13-latin/inter-v13-latin-800.woff2") format("woff2"),
+  src: url("../docs/fonts/inter-v13-latin/inter-v13-latin-800.woff2")
+      format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
       url("../fonts/inter-v13-latin/inter-v13-latin-800.ttf") format("truetype");
 
