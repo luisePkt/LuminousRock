@@ -1647,6 +1647,10 @@ header {
 }
 
 @media (min-width: 768px) {
+  .md\:m-auto {
+    margin: auto;
+  }
+
   .md\:mr-5 {
     margin-right: 1.25rem;
   }
@@ -1655,12 +1659,32 @@ header {
     margin-top: 0px;
   }
 
+  .md\:mb-40 {
+    margin-bottom: 10rem;
+  }
+
+  .md\:mb-auto {
+    margin-bottom: auto;
+  }
+
+  .md\:mb-72 {
+    margin-bottom: 18rem;
+  }
+
   .md\:grid {
     display: grid;
   }
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:h-1\/2 {
+    height: 50%;
   }
 
   .md\:w-1\/3 {
