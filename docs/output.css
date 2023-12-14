@@ -602,6 +602,10 @@ video {
   inset: 0px;
 }
 
+.inset-5 {
+  inset: 1.25rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
