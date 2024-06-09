@@ -24,9 +24,9 @@ Visit LuminousStones while clicking [here](https://luminousrock.onrender.com) to
 
 To test the website locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository.
 
-2. Navigate to the cloned directory:
+2. Navigate to the cloned directory.
 
 3. Open the `index.html` file in your preferred browser to view the website.
 
